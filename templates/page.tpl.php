@@ -170,10 +170,8 @@
 
 </div>
 <!-- content -->  <!-- sidebar first -->  <!-- sidebar second -->
-
-<div id="footer" class="<?php print $container_class; ?>">
-<footer>
-<div class="well">Footer</div>
+<?php if (!empty($page['footer'])): ?>
+<footer id="footer" class="<?php print $container_class; ?>">
+  <?php print render($page['footer']); ?>
 </footer>
-</div>
-<!-- footer -->
+<?php endif; ?>
