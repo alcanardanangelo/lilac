@@ -2,4 +2,4 @@
 
 # Lilac Theme
 
-A simple blogging theme
+A Bootstrap subtheme. You must have Bootstrap theme installed.
