@@ -1,4 +1,4 @@
-name = Lilac Theme
+name = Lilac
 description = A Blogging Theme
 core = 7.x
 base theme = bootstrap
