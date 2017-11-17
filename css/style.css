@@ -1,0 +1,11 @@
+/**
+ * Place your custom styles here.
+ */
+
+ * { border-radius: 0 !important; }
+ 
+.navbar-default,
+.navbar-form { 
+  background-color: transparent; 
+  border: 0; 
+}
