@@ -2,8 +2,10 @@
  * Place your custom styles here.
  */
 
- * { border-radius: 0 !important; }
+* { border-radius: 0 !important; }
  
+#page { margin-top: 60px; }
+
 .navbar-default,
 .navbar-form { 
   background-color: transparent; 
