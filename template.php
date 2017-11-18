@@ -7,6 +7,9 @@
 
 function lilac_preprocess_node(&$variables) {
 
+  // Title
+  $variables['title'] = ucwords($variables['title']);
+
   // Read More
   $variables['read_more'] = $variables['content']['links']['node'];
 
