@@ -72,6 +72,7 @@
     <div class="row">
       <?php if (!empty($page['content'])): ?>
         <div id="content" class="col-sm-9">
+          <h2><?php print $title; ?></h2>
           <?php print render($page['content']); ?>
         </div>
       <?php endif; ?>
