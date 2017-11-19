@@ -6,7 +6,6 @@
 
 
 function lilac_preprocess_node(&$variables) {
-
   // Title
   $variables['title'] = ucwords($variables['title']);
 
@@ -15,4 +14,9 @@ function lilac_preprocess_node(&$variables) {
 
   // Format created date
   $variables['created_date_formatted'] = date('F d, Y, l h:i A', $variables['created']);
+}
+
+function lilac_preprocess_page(&$variables) {
+  $variables['title'] = ucwords($variables['node']->title);
+
 }
