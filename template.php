@@ -17,6 +17,6 @@ function lilac_preprocess_node(&$variables) {
 }
 
 function lilac_preprocess_page(&$variables) {
-  $variables['title'] = ucwords($variables['node']->title);
 
+  
 }
