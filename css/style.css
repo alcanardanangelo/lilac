@@ -6,15 +6,22 @@
  
 #page { margin-top: 60px; }
 
-#header-left {
+#header-left,
+#main-menu,
+#bs-example-navbar-collapse-1,
+li.first> a,
+.navbar {
   padding-left: 0;
 }
-
 /* Navigation */
 .navbar-default,
 .navbar-form { 
   background-color: transparent; 
   border: 0; 
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .active { background-color: transparent !important; }
