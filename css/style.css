@@ -6,6 +6,11 @@
  
 #page { margin-top: 60px; }
 
+#header-left {
+  padding-left: 0;
+}
+
+/* Navigation */
 .navbar-default,
 .navbar-form { 
   background-color: transparent; 
@@ -13,3 +18,14 @@
 }
 
 .active { background-color: transparent !important; }
+
+
+/* node.tpl.php*/
+.node {
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.field-item p {
+  text-align: justify;
+}
