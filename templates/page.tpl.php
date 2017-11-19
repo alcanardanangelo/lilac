@@ -61,9 +61,9 @@
   <!-- main-content -->
   <div class="main-container <?php print $container_class; ?>">
     <div class="row">
-      <?php if (!empty($page['messages'])): ?>
+      <?php if ($messages): ?>
         <div id="messages" class="col-sm-9">
-          
+          <?php print $messages; ?>
         </div>
       <?php endif; ?>
     </div>
