@@ -3,6 +3,13 @@
  */
 
 * { border-radius: 0 !important; }
+
+#content,
+#sidebar-first,
+#sidebar-second,
+#footer {
+  border: 1px solid;
+}
  
 #page { margin-top: 60px; }
 
@@ -29,7 +36,6 @@ li.first> a,
 
 /* node.tpl.php*/
 .node {
-  border: 1px solid;
   margin-bottom: 20px;
 }
 
@@ -38,9 +44,6 @@ header h2,
   margin-top: 0;
 }
 
-#content h2 {
-  border: 1px solid;
-}
 .field-item p {
   text-align: justify;
 }
