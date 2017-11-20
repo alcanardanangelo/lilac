@@ -43,14 +43,11 @@
 
       </div>
 
-      <div id="search" class="col-sm-3">
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">S</button>
-        </form>
-      </div>
+      <?php if (!empty($page['search'])): ?>
+        <div id="search" class="col-sm-3">
+          <?php print render($page['search']); ?>
+        </div>
+      <?php endif; ?>
 
       
     </div><!-- /.container -->
