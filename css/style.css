@@ -33,6 +33,14 @@ li.first> a,
   margin-bottom: 20px;
 }
 
+header h2,
+#content h2 {
+  margin-top: 0;
+}
+
+#content h2 {
+  border: 1px solid;
+}
 .field-item p {
   text-align: justify;
 }

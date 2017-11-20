@@ -3,7 +3,10 @@
     <div class="row">
       <?php if (!empty($page['content'])): ?>
         <div id="content" class="col-sm-9">
-           <?php print render($page['content']);?>
+          <?php if (!$is_front): ?>
+            <h2><?php print $title; ?></h2>
+          <?php endif; ?>
+          <?php print render($page['content']);?>
         </div>
       <?php endif; ?>
 
