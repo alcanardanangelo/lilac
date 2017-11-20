@@ -2,7 +2,9 @@
  * Place your custom styles here.
  */
 
-* { border-radius: 0 !important; }
+* { 
+  border-radius: 0 !important;
+}
 #header,
 #main-menu,
 #messages,
@@ -47,6 +49,8 @@ header h2,
   margin-top: 0;
 }
 
-.field-item p {
-  text-align: justify;
+p {
+  font-family: georgia, serif;
+  font-size: 18px;
+  font-style: normal;
 }
