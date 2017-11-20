@@ -3,7 +3,10 @@
  */
 
 * { border-radius: 0 !important; }
-
+#header,
+#main-menu,
+#messages,
+#main-content,
 #content,
 #sidebar-first,
 #sidebar-second,
