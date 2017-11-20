@@ -1,7 +1,7 @@
 <div id="page"> 
   <!-- Title -->
   <?php if ($site_name || $site_slogan):?>
-    <div class="container">
+    <div id="header" class="container">
       <div class="row">
         <div class="col-sm-12">
           <h2><?php print $site_name; ?> | <?php print $site_slogan; ?></h2>
@@ -11,12 +11,12 @@
   <?php endif; ?>
 
   <!-- Menu -->
-  <nav class="navbar navbar-default">
+  <nav id="main-menu" class="navbar navbar-default">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="col-sm-9">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsegit " aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -56,6 +56,14 @@
     </div><!-- /.container -->
   </nav>
 
+  <!-- Sytem Messages -->
+  <div id="messages" class="<?php print $container_class; ?>">
+    <div class="row">
+      <div class="col-sm-9">
+        <?php print $messages; ?>
+      </div>
+    </div>
+  </div>
 
   <!-- Main Content -->
   <div id="main-content" class="<?php print $container_class; ?>">
