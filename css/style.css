@@ -13,7 +13,7 @@
 #sidebar-first,
 #sidebar-second,
 #footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
  
 #page { margin-top: 60px; }
@@ -54,4 +54,10 @@ p,
   font-family: georgia, serif;
   font-size: 18px;
   font-style: normal;
+}
+
+/* search */
+.btn-primary {
+  background-color: #9896A4;
+  border-color: #9896A4;
 }

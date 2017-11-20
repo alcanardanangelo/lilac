@@ -1,14 +1,25 @@
-<div id="page"> 
-  <!-- Title -->
-  <?php if ($site_name || $site_slogan):?>
-    <div id="header" class="container">
-      <div class="row">
-        <div class="col-sm-12">
+<div id="page">
+
+  <header id="header" class="<?php print $container_class; ?>">
+    <div class="row">
+      <?php if ($site_name || $site_slogan):?>
+        <div class="col-sm-9">
           <h2><?php print $site_name; ?> | <?php print $site_slogan; ?></h2>
         </div>
-      </div>
+      <?php endif; ?>
+      
+      <?php if (!empty($page['header_right'])): ?>
+        <div class="col-sm-3">
+          <?php print render($page['header_right']); ?>
+        </div>
+      <?php endif; ?>
+
     </div>
-  <?php endif; ?>
+
+  </header>
+
+
+
 
   <!-- Menu -->
   <nav id="main-menu" class="navbar navbar-default">

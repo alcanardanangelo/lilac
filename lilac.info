@@ -8,7 +8,6 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[header_left]    = 'Header Left'
 regions[header_right]   = 'Header Right'
 regions[search]         = 'Search'
 regions[breadcrumbs]    = 'Breadcrumbs'
