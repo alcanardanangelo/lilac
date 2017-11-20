@@ -110,9 +110,7 @@
     if ($field_tags || $links):
   ?>
    <footer>
-
-     <div id="tags">
-     </div><?php print $field_tags; ?>
+     <?php print $field_tags; ?>
      <?php print $links; ?>
   </footer>
   <?php endif; ?>
