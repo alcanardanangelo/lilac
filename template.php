@@ -22,4 +22,6 @@ function lilac_preprocess_page(&$variables) {
 
 function lilac_preprocess_html(&$variables) {
     drupal_add_css('https://fonts.googleapis.com/css?family=Oswald:600', array('type' => 'external'));
+    drupal_add_css('https://fonts.googleapis.com/css?family=Crimson+Text:700', array('type' => 'external'));
+
 }

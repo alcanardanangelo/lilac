@@ -60,6 +60,12 @@ li.first> a,
   margin-bottom: 20px;
 }
 
+.node-title {
+  color: #303030;
+  font-family: 'Crimson Text', serif;
+
+}
+
 header h2,
 #content h2 {
   margin-top: 0;
