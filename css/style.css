@@ -25,6 +25,16 @@ body {
  
 #page { margin-top: 60px; }
 
+#header-left {
+  font-family: 'Oswald', sans-serif;
+}
+
+#site-slogan {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
 #main-menu,
 #bs-example-navbar-collapse-1,
 li.first> a,
@@ -57,7 +67,7 @@ header h2,
 
 p,
 .field-item li {
-  font-family: georgia, serif;
+  font-family: 'Georgia', serif;
   font-size: 18px;
   font-style: normal;
 }

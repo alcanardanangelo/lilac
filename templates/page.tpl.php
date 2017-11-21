@@ -4,7 +4,7 @@
       <div class="row">
         <?php if ($site_name || $site_slogan):?>
           <div id="header-left" class="col-sm-9">
-            <h2><?php print $site_name; ?> | <?php print $site_slogan; ?></h2>
+            <h2><?php print $site_name; ?> | <span id="site-slogan"><?php print $site_slogan; ?></span></h2>
           </div>
         <?php endif; ?>
         <?php if (!empty($page['header_right'])): ?>

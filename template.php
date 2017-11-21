@@ -17,6 +17,9 @@ function lilac_preprocess_node(&$variables) {
 }
 
 function lilac_preprocess_page(&$variables) {
+  $variables['site_name'] = strtoupper($variables['site_name']);
+}
 
-  
+function lilac_preprocess_html(&$variables) {
+    drupal_add_css('https://fonts.googleapis.com/css?family=Oswald:600', array('type' => 'external'));
 }
