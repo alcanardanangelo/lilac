@@ -1,24 +1,20 @@
 <div id="page">
-
-  <header id="header" class="<?php print $container_class; ?>">
-    <div class="row">
-      <?php if ($site_name || $site_slogan):?>
-        <div id="header-left" class="col-sm-9">
-          <h2><?php print $site_name; ?> | <?php print $site_slogan; ?></h2>
-        </div>
-      <?php endif; ?>
-      
-      <?php if (!empty($page['header_right'])): ?>
-        <div id="header-right" class="col-sm-3">
-          <?php print render($page['header_right']); ?>
-        </div>
-      <?php endif; ?>
-
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <?php if ($site_name || $site_slogan):?>
+          <div id="header-left" class="col-sm-9">
+            <h2><?php print $site_name; ?> | <?php print $site_slogan; ?></h2>
+          </div>
+        <?php endif; ?>
+        <?php if (!empty($page['header_right'])): ?>
+          <div id="header-right" class="col-sm-3">
+            <?php print render($page['header_right']); ?>
+          </div>
+        <?php endif; ?>
+      </div>   
     </div>
-
   </header>
-
-
   <!-- Menu -->
   <nav id="main-menu" class="navbar navbar-default">
     <div class="container">
@@ -32,7 +28,6 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
       <!-- Collapse Navigation Links -->
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <div class="navbar-collapse collapse" id="navbar-collapse">
@@ -49,19 +44,14 @@
           </nav>
         </div>
       <?php endif; ?>
-
       </div>
-
       <?php if (!empty($page['search'])): ?>
         <div id="search" class="col-sm-3">
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
-
-      
     </div><!-- /.container -->
   </nav>
-
   <!-- Sytem Messages -->
   <div id="messages" class="<?php print $container_class; ?>">
     <div class="row">
@@ -70,7 +60,6 @@
       </div>
     </div>
   </div>
-
   <!-- Main Content -->
   <div id="main-content" class="<?php print $container_class; ?>">
     <div class="row">
@@ -82,7 +71,6 @@
           <?php print render($page['content']);?>
         </div>
       <?php endif; ?>
-
       <?php if (!empty($page['sidebar_first']) || !empty($page['sidebar_second'])): ?>   
         <div id="sidebar" class="col-sm-3">
           <?php if (!empty($page['sidebar_first'])): ?>
@@ -90,13 +78,11 @@
               <?php print render($page['sidebar_first']);?>
             </div>
           <?php endif; ?>
-
           <?php if (!empty($page['sidebar_second'])): ?>
             <div id="sidebar-second">
               <?php print render($page['sidebar_second']);?>
             </div>
           <?php endif; ?>
-
         </div>
       <?php endif; ?>
     </div>

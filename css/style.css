@@ -5,6 +5,11 @@
 * { 
   border-radius: 0 !important;
 }
+
+body {
+  background-color: #f9f5e8;
+}
+
 #header,
 #header-right,
 #header-left,
@@ -20,7 +25,6 @@
  
 #page { margin-top: 60px; }
 
-#header-left,
 #main-menu,
 #bs-example-navbar-collapse-1,
 li.first> a,
