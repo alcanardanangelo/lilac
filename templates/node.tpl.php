@@ -7,12 +7,7 @@
     <?php if (!$page && !empty($title)): ?>
     <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
     <?php endif; ?>
-    <?php 
-      kpr($title_suffix); 
-      print render($title_suffix); 
-      
-      ?>
-
+      <?php print render($title_suffix); ?>
     <?php if ($created_date_formatted): ?>
     <span class="submitted">
       <?php /* print $user_picture; */ ?>
@@ -21,4 +16,13 @@
     <?php endif; ?>
   </header>
   <?php endif; ?>
+  
+  <?php
+  // Hide comments, tags, and links now so that we can render them later.
+  hide($content['comments']);
+  hide($content['links']);
+  hide($content['field_tags']);
+  hide($content['field_image']);
+  print render($content);
+  ?>
 </article>

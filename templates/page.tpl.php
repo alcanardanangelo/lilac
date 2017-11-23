@@ -63,6 +63,9 @@
   <!-- Main Content -->
   <div id="main-content" class="<?php print $container_class; ?>">
     <div class="row">
+      <?php if (!empty($tabs)): ?>
+        <?php print render($tabs); ?>
+      <?php endif; ?>
       <?php if (!empty($page['content'])): ?>
         <div id="content" class="col-sm-9">
           <?php if (!$is_front): ?>
