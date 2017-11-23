@@ -1,0 +1,10 @@
+/* node.tpl.php*/
+.node {
+  margin-bottom: 20px;
+}
+
+.node-title {
+  color: #303030;
+  font-family: 'Crimson Text', serif;
+
+}

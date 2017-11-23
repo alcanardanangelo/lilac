@@ -1,0 +1,16 @@
+#header,
+#header-right,
+#header-left,
+#main-menu,
+#messages,
+#main-content,
+#content,
+#sidebar-first,
+#sidebar-second,
+#footer {
+  /* border: 1px solid red; */
+}
+
+#header-left {
+  font-family: 'Oswald', sans-serif;
+}

@@ -10,24 +10,8 @@ body {
   background-color: #f9f5e8;
 }
 
-#header,
-#header-right,
-#header-left,
-#main-menu,
-#messages,
-#main-content,
-#content,
-#sidebar-first,
-#sidebar-second,
-#footer {
-  /* border: 1px solid red; */
-}
- 
 #page { margin-top: 60px; }
 
-#header-left {
-  font-family: 'Oswald', sans-serif;
-}
 
 #site-slogan {
   font-family: 'Georgia', serif;
@@ -53,18 +37,6 @@ li.first> a,
 }
 
 .active { background-color: transparent !important; }
-
-
-/* node.tpl.php*/
-.node {
-  margin-bottom: 20px;
-}
-
-.node-title {
-  color: #303030;
-  font-family: 'Crimson Text', serif;
-
-}
 
 header h2,
 #content h2 {
