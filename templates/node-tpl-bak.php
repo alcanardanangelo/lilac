@@ -87,7 +87,7 @@
     <h3<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-    <?php if ($display_submitted): ?>
+    <?php if ($created_date_formatted): ?>
     <span class="submitted">
       <?php print $user_picture; ?>
       <?php print $submitted; ?>
